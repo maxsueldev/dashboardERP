@@ -196,8 +196,8 @@ class configuracoes {
             $mail->Host = 'smtp.gmail.com';
             $mail->Port = 587;
             $mail->SMTPAuth = true;            // Enable SMTP authentication
-            $mail->Username = 'helpdesk.semtabes@gmail.com';        // SMTP username
-            $mail->Password = 'cgtihelpdesk';      // SMTP password
+            $mail->Username = '#####@gmail.com';        // SMTP username
+            $mail->Password = '######';      // SMTP password
             $mail->SMTPSecure = 'tls';      // tls or ssl connection as req
 
             $mail->From = $from; // Seu e-mail
